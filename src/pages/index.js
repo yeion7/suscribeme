@@ -47,7 +47,6 @@ const IndexPage = ({ data }) => {
       </Helmet>
       <img src={suscribeme} alt="" />
       <Message message={message} messageFont={messageFont} color={color} />
-      <Social social={social} color={color} />
     </div>
   );
 };
@@ -64,7 +63,6 @@ export const query = graphql`
         color
         titleFont
         messageFont
-        social
       }
     }
   }
