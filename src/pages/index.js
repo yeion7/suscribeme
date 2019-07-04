@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
           }
         />
       </Helmet>
-      <img src={suscribeme} alt="" />
+      <img src={suscribeme} alt="logo suscribeme" style={{ width: "60%" }} />
       <Message message={message} messageFont={messageFont} color={color} />
     </div>
   );
